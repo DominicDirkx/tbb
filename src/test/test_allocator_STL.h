@@ -29,7 +29,7 @@ void TestSequence(const typename Container::allocator_type &a) {
         ++p;
     }
     // regression test against compilation error for GCC 4.6.2
-    c.resize(1000);
+    //c.resize(1000);
 }
 
 template<typename Set>
